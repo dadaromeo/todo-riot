@@ -1,0 +1,29 @@
+{
+    "name": "todo-riot",
+    "version": "1.2.0",
+    "description": "A ToDo Application with RiotJS and UIKit",
+    "license": "Apache 2",
+    "author": "Dada Romeo",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dadaromeo/todo-riot.git"
+    },
+    "keywords": ["todo", "riot", "uikit", "foxx"],
+    "engines": {
+        "arangodb": "^3.0.0"
+    },
+    "main": "index.js",
+    "defaultDocument": "index.html",
+    "scripts": {
+        "setup": "scripts/setup.js",
+        "teardown": "scripts/teardown.js"
+    },
+    "files": {
+        "/index.html": {"path": "public/index.html"},
+        "/css/uikit.min.css": {"path": "public/css/uikit.min.css"},
+        "/js/uiki.min.js": {"path": "public/js/uikit.min.js"},
+        "/js/riot.min.js": {"path": "public/js/riot.min.js"},
+        "/js/api.js": {"path": "public/js/api.js"},
+        "/js/todo.js": {"path": "public/js/todo.js"}
+    }
+}
